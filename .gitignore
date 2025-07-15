@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Caches y logs
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Archivos grandes de entrenamiento / salida
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+
+# Datos temporales o transformados
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.npy
+*.npz
+*.txt
+data/
+datasets/
+outputs/
+results/
+
+# Entorno virtual (Windows / Linux / MacOS)
+venv/
+env/
+.venv/
+venv-gcn-detection/
+
+# Visual Studio Code
+.vscode/
+.settings/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de instalación
+*.egg-info/
+dist/
+build/
+
+# PyTorch Geometric build artifacts
+torch_scatter/
+torch_sparse/
+torch_cluster/
+torch_spline_conv/
